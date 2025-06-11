@@ -1,6 +1,6 @@
 +++
 date = '2025-06-10T14:58:01+03:00'
-draft = true
+draft = false
 title = 'About'
 +++
 # Структура КП «ДМКЛ ПМР»
