@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'КП ДМКЛ ПМР'
+theme = "cleanwhite"
+
+[menu]
+  [[menu.main]]
+    name = "Головна"
+    url = "/"
+    weight = 10 # Порядок в меню
+  [[menu.main]]
+    name = "Про нас" # Текст, що відображається в меню
+    url = "/about/" # Шлях до сторінки. Зверніть увагу на слеші!
+    weight = 20
+  [[menu.main]]
+    name = "Керівництво"
+    url = "/boss/"
+    weight = 30
