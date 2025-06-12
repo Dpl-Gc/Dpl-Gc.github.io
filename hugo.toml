@@ -1,4 +1,6 @@
-baseURL = 'https://example.org/'
+publishDir = "docs"
+baseURL = "https://dpl-gc.github.io/" # Встановіть коректну URL
+
 languageCode = 'en-us'
 title = 'КП ДМКЛ ПМР'
 theme = "cleanwhite"
