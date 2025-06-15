@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="uk-ua">
 <head>
 	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
@@ -16,9 +16,9 @@
     
 
     
-    <meta name="title" content="Home" />
-    <meta property="og:title" content="Home" />
-    <meta property="twitter:title" content="Home" />
+    <meta name="title" content="Головна" />
+    <meta property="og:title" content="Головна" />
+    <meta property="twitter:title" content="Головна" />
     
 
     
@@ -35,7 +35,7 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Home | </title>
+    <title>Головна | </title>
 
     <link rel="canonical" href="/">
 
@@ -97,17 +97,57 @@
         <div id="huxblog_navbar">
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">All Posts</a>
+                    
+                    <li class="nav-item ">
+                        <a class="nav-link "
+                        href="/"
+                        
+                        >
+                            Головна
+                            
+                        </a>
+                        
                     </li>
                     
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                        href="/about/"
+                        data-toggle="dropdown" role="button" aria-expanded="false"
+                        >
+                            Про нас
+                            <span class="caret"></span>
+                        </a>
                         
+                        <ul class="dropdown-menu" role="menu">
+                            
+                            <li><a href="/about/history/" role="menuitem">Наша історія</a></li>
+                            
+                        </ul>
+                        
+                    </li>
                     
+                    <li class="nav-item ">
+                        <a class="nav-link "
+                        href="/boss/"
+                        
+                        >
+                            Керівництво
+                            
+                        </a>
+                        
+                    </li>
                     
-		    
-		            <li>
-                        <a href="/search"><i class="fa fa-search"></i></a>
-		           </li>
+                    <li class="nav-item ">
+                        <a class="nav-link "
+                        href="/posts/"
+                        
+                        >
+                            Новини
+                            
+                        </a>
+                        
+                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -121,7 +161,7 @@
     
     var $body   = document.body;
     var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
+        var $navbar = document.querySelector('#huxblog_navbar');
     var $collapse = document.querySelector('.navbar-collapse');
 
     $toggle.addEventListener('click', handleMagic)
