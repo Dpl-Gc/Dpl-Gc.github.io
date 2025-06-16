@@ -1,2 +1,3 @@
 # Dpl-Gc.github.io
-first site DL-Pl
+сайт ДМКЛ на Hugo і Github
+
