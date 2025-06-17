@@ -4,25 +4,81 @@ languageCode = 'uk-ua'
 title = 'КП ДМКЛ ПМР'
 theme = "cleanwhite"
 
-[menus]
+  [menus]
   [[menus.main]]
     name = "Головна"
     url = "/"
     weight = 10 # Порядок в меню
   [[menus.main]]
     name = "Про нас" # Текст, що відображається в меню
-    url = "/about/" # Шлях до сторінки. Зверніть увагу на слеші!
     weight = 20
+    identifier = "about"
+    url = "#"  # Порожнє посилання для батьківського пункту
   [[menus.main]]
-    name = "Наша історія"
+    name = "Про лікарню" # Текст, що відображається в меню
+    url = "/about/clinic/" # Шлях до сторінки. Зверніть увагу на слеші!
+    parent = "about" # Цей пункт буде підпунктом "Про нас"
+    weight = 20.1    
+  [[menus.main]]
+    name = "Історія лікарні"
     url = "/about/history/"
-    parent = "Про нас" # Цей пункт буде підпунктом "Про нас"
-    weight = 10
+    parent = "about" # Цей пункт буде підпунктом "Про нас"
+    weight = 20.2
   [[menus.main]]
     name = "Керівництво"
     url = "/about/boss/"
-    parent = "Про нас" # Цей пункт буде підпунктом "Про нас"
-    weight = 20
+    parent = "about" # Цей пункт буде підпунктом "Про нас"    
+    weight = 20.3
+  [[menus.main]]
+    name = "Відділення лікарні"
+    weight = 30
+    identifier = "departments"
+    url = "#"  # Порожнє посилання для батьківського пункту
+  [[menus.main]]  # Група 1: Поліклініка
+    name = "Поліклініка"
+    weight = 30.1
+    parent = "departments"
+    identifier = "polyclinic"
+  [[menus.main]]    # Підпункти для Поліклініки
+    name = "ДПВ №1"
+    url = "/polyclinic/dpv-1"
+    weight = 1
+    parent = "polyclinic"
+  [[menus.main]]
+    name = "ДПВ №2"
+    url = "/polyclinic/dpv-2"
+    weight = 2
+    parent = "polyclinic"
+  [[menus.main]]
+    name = "ДПВ №3"
+    url = "/polyclinic/dpv-3"
+    weight = 3
+    parent = "polyclinic"
+  [[menus.main]]
+    name = "ДПCВ"
+    url = "/polyclinic/dpsv"
+    weight = 4
+    parent = "polyclinic"
+  [[menus.main]]
+    name = "Стаціонар"    # Група 2: Стаціонар
+    weight = 30.2
+    parent = "departments"
+    identifier = "stationary"
+  [[menus.main]]  # Підпункти для Стаціонару
+    name = "ВАІТ"
+    url = "/stationary/vait"
+    weight = 1
+    parent = "stationary"
+  [[menus.main]]  # Група 3: Діагностика
+    name = "Діагностика"
+    weight = 30.3
+    parent = "departments"
+    identifier = "diagnostics"
+  [[menus.main]]  # Підпункти для Діагностики
+    name = "Лабораторія"
+    url = "/diagnostics/laboratory"
+    weight = 1
+    parent = "diagnostics"
   [[menus.main]]
     name = "Новини"
     url = "/posts/"

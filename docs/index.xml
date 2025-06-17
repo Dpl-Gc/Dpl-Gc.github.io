@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Головна on КП ДМКЛ ПМР</title>
-    <link>https://dpl-gc.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Головна on КП ДМКЛ ПМР</description>
     <generator>Hugo</generator>
     <language>uk-ua</language>
-    <lastBuildDate>Tue, 10 Jun 2025 15:03:17 +0300</lastBuildDate>
-    <atom:link href="https://dpl-gc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 18:26:31 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Керівництво</title>
-      <link>https://dpl-gc.github.io/boss/</link>
-      <pubDate>Tue, 10 Jun 2025 15:03:17 +0300</pubDate>
-      <guid>https://dpl-gc.github.io/boss/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Директор&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;савченко-лариса-петрівна&#34;&gt;САВЧЕНКО Лариса Петрівна&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Медичний директор&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;ананевич-олена-іванівна&#34;&gt;АНАНЕВИЧ Олена Іванівна&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Заступник директора з організаційно-методичної роботи&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;карпова-юлія-миколаївна&#34;&gt;КАРПОВА Юлія Миколаївна&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Заступник директора з економічних питань&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;різун-тетяна-олександрівна&#34;&gt;РІЗУН Тетяна Олександрівна&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Головний бухгалтер&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;кащук-олена-юріївна&#34;&gt;КАЩУК Олена Юріївна&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Головна медична сестра&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;горбенко-зоя-григорівна&#34;&gt;ГОРБЕНКО Зоя Григорівна&lt;/h2&gt;</description>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Sun, 15 Jun 2025 18:26:31 +0300</pubDate>
+      <guid>http://localhost:1313/posts/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;шановні-громадяни-полтавської-громади&#34;&gt;Шановні громадяни Полтавської громади!&lt;/h1&gt;&#xA;&lt;p&gt;У нас невеличка, але важлива зміна — номер нашої гарячої лінії тепер&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;095-204-71-44&#34;&gt;095-204-71-44&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;якщо-виникнуть-питання&#34;&gt;Будь ласка, користуйтеся ним,&#xA;якщо виникнуть питання.&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 15 Jun 2025 01:36:57 +0300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;структура-кп-дмкл-пмр&#34;&gt;Структура КП «ДМКЛ ПМР»&lt;/h1&gt;&#xA;&lt;p&gt;Поліклінічні відділення:&#xA;Стаціонарні відділення:&#xA;Параклінічні та діагностичні підрозділи, кабінети:&#xA;Перелік видів амбулаторної та стаціонарної допомоги&#xA;Спеціальності, за якими надається спеціалізована амбулаторна та стаціонарна допомога&#xA;Цілодобове чергування фахівців&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
