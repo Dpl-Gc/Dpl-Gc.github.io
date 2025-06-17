@@ -4,11 +4,6 @@ languageCode = 'uk-ua'
 title = 'КП ДМКЛ ПМР'
 theme = "cleanwhite"
 
-[params]
-# Інші параметри теми...
-  fixedNavigationBar = true  # Фіксоване меню вгорі 
-#  добавлено параметр fixedNavigationBar = true  # Фiксоване меню вгорi
-
 [menus]
   [[menus.main]]
     name = "Головна"
