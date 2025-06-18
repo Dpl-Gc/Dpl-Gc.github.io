@@ -8,7 +8,6 @@ theme = "cleanwhite"
     fixedNavigationBar = true # фіксацію меню
     customCSS = ["css/custom.css"]
 
-
   [menus]
   [[menus.main]]
     name = "Головна"
