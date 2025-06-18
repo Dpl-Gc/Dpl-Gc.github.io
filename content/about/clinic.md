@@ -1,6 +1,6 @@
 +++
 date = '2025-06-15T01:36:57+03:00'
-draft = true
+draft = false
 title = 'Про лікарню'
 +++
 ---

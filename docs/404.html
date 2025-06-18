@@ -75,128 +75,128 @@
 
 
 
-
-
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-
-    <div class="container-fluid">
+<nav class="navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://localhost:1313/">КП ДМКЛ ПМР</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
         
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">КП ДМКЛ ПМР</a>
-        </div>
-
+<ul class="nav navbar-nav">
+    
         
+            <li>
+                <a href="/">Головна</a>
+            </li>
         
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
+    
+        
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Про нас <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
                     
-                    <li class="nav-item ">
-                        <a class="nav-link "
-                        href="/"
                         
-                        >
-                            Головна
-                            
-                        </a>
+                            <li>
+                                <a href="/about/clinic/">Про лікарню</a>
+                            </li>
                         
-                    </li>
                     
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                        href="/#"
-                        data-toggle="dropdown" role="button" aria-expanded="false"
-                        >
-                            Про нас
-                            <span class="caret"></span>
-                        </a>
                         
-                        <ul class="dropdown-menu" role="menu">
-                            
-                            <li><a href="/about/history/" role="menuitem">Історія лікарні</a></li>
-                            
-                            <li><a href="/about/boss/" role="menuitem">Керівництво</a></li>
-                            
-                            <li><a href="/about/clinic/" role="menuitem">Про лікарню</a></li>
-                            
-                        </ul>
+                            <li>
+                                <a href="/about/history/">Історія лікарні</a>
+                            </li>
                         
-                    </li>
                     
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                        href="/#"
-                        data-toggle="dropdown" role="button" aria-expanded="false"
-                        >
-                            Відділення лікарні
-                            <span class="caret"></span>
-                        </a>
                         
-                        <ul class="dropdown-menu" role="menu">
-                            
-                            <li><a href="/" role="menuitem">Діагностика</a></li>
-                            
-                            <li><a href="/" role="menuitem">Поліклініка</a></li>
-                            
-                            <li><a href="/" role="menuitem">Стаціонар</a></li>
-                            
-                        </ul>
+                            <li>
+                                <a href="/about/boss/">Керівництво</a>
+                            </li>
                         
-                    </li>
-                    
-                    <li class="nav-item ">
-                        <a class="nav-link "
-                        href="/posts/"
-                        
-                        >
-                            Новини
-                            
-                        </a>
-                        
-                    </li>
                     
                 </ul>
-            </div>
-        </div>
+            </li>
         
+    
+        
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Відділення лікарні <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    
+                        
+                            <li class="dropdown-submenu">
+                                <a href="#">Поліклініка</a>
+                                <ul class="dropdown-menu">
+                                    
+                                        <li>
+                                            <a href="/polyclinic/dpv-1/">ДПВ №1</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="/polyclinic/dpv-2/">ДПВ №2</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="/polyclinic/dpv-3/">ДПВ №3</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="/polyclinic/dpsv/">ДПCВ</a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    
+                        
+                            <li class="dropdown-submenu">
+                                <a href="#">Стаціонар</a>
+                                <ul class="dropdown-menu">
+                                    
+                                        <li>
+                                            <a href="/stationary/vait/">ВАІТ</a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    
+                        
+                            <li class="dropdown-submenu">
+                                <a href="#">Діагностика</a>
+                                <ul class="dropdown-menu">
+                                    
+                                        <li>
+                                            <a href="/diagnostics/laboratory/">Лабораторія</a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li>
+                <a href="/posts/">Новини</a>
+            </li>
+        
+    
+</ul> 
+      </div>
     </div>
-    
-</nav>
-<script>
-    
-    
-    
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-        var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
-
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        
-            $navbar.className = " ";
-            
-            setTimeout(function(){
-                
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
-        }
-    }
-</script>
-
+  </nav>  
 
 
 <header class="intro-header" style="background-image: url('/')">

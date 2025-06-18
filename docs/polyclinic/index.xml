@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polyclinics on КП ДМКЛ ПМР</title>
+    <link>http://localhost:1313/polyclinic/</link>
+    <description>Recent content in Polyclinics on КП ДМКЛ ПМР</description>
+    <generator>Hugo</generator>
+    <language>uk-ua</language>
+    <lastBuildDate>Wed, 18 Jun 2025 11:32:39 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/polyclinic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ДИТЯЧЕ ПОЛІКЛІНІЧНЕ СТОМАТОЛОГІЧНЕ ВІДДІЛЕННЯ</title>
+      <link>http://localhost:1313/polyclinic/dpsv/</link>
+      <pubDate>Wed, 18 Jun 2025 11:32:39 +0300</pubDate>
+      <guid>http://localhost:1313/polyclinic/dpsv/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;дитяче-поліклінічне-стоматологічне-відділення&#34;&gt;ДИТЯЧЕ ПОЛІКЛІНІЧНЕ СТОМАТОЛОГІЧНЕ ВІДДІЛЕННЯ&lt;/h1&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>ДИТЯЧЕ ПОЛІКЛІНІЧНЕ ВІДДІЛЕННЯ № 3</title>
+      <link>http://localhost:1313/polyclinic/dpv-3/</link>
+      <pubDate>Wed, 18 Jun 2025 11:32:30 +0300</pubDate>
+      <guid>http://localhost:1313/polyclinic/dpv-3/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;дитяче-поліклінічне-відділення--3&#34;&gt;ДИТЯЧЕ ПОЛІКЛІНІЧНЕ ВІДДІЛЕННЯ № 3&lt;/h1&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>ДИТЯЧЕ ПОЛІКЛІНІЧНЕ ВІДДІЛЕННЯ № 2</title>
+      <link>http://localhost:1313/polyclinic/dpv-2/</link>
+      <pubDate>Wed, 18 Jun 2025 11:32:25 +0300</pubDate>
+      <guid>http://localhost:1313/polyclinic/dpv-2/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;дитяче-поліклінічне-відділення--2&#34;&gt;ДИТЯЧЕ ПОЛІКЛІНІЧНЕ ВІДДІЛЕННЯ № 2&lt;/h1&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>ДИТЯЧЕ ПОЛІКЛІНІЧНЕ ВІДДІЛЕННЯ № 1</title>
+      <link>http://localhost:1313/polyclinic/dpv-1/</link>
+      <pubDate>Wed, 18 Jun 2025 11:32:07 +0300</pubDate>
+      <guid>http://localhost:1313/polyclinic/dpv-1/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;дитяче-поліклінічне-відділення--1&#34;&gt;ДИТЯЧЕ ПОЛІКЛІНІЧНЕ ВІДДІЛЕННЯ № 1&lt;/h1&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagnostics on КП ДМКЛ ПМР</title>
+    <link>http://localhost:1313/diagnostics/</link>
+    <description>Recent content in Diagnostics on КП ДМКЛ ПМР</description>
+    <generator>Hugo</generator>
+    <language>uk-ua</language>
+    <lastBuildDate>Wed, 18 Jun 2025 13:37:59 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/diagnostics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>КЛІНІКО-ДІАГНОСТИЧНА ЛАБОРАТОРІЯ</title>
+      <link>http://localhost:1313/diagnostics/laboratory/</link>
+      <pubDate>Wed, 18 Jun 2025 13:37:59 +0300</pubDate>
+      <guid>http://localhost:1313/diagnostics/laboratory/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;клініко-діагностична-лабораторія&#34;&gt;КЛІНІКО-ДІАГНОСТИЧНА ЛАБОРАТОРІЯ&lt;/h1&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>
