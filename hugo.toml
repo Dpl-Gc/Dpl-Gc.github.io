@@ -13,13 +13,13 @@ theme = "cleanwhite"
   [[menus.main]]
     name = "Головна"
     url = "/"
-    weight = 1 # Порядок в меню
+    weight = 10 # Порядок в меню
 
   [[menus.main]]
     name = "Про нас" # Текст, що відображається в меню
-    weight = 2
-    identifier = "about"
     url = "#"  # Порожнє посилання для батьківського пункту
+    identifier = "about"
+    weight = 20
 
   [[menus.main]]
     name = "Про лікарню" # Текст, що відображається в меню
@@ -39,62 +39,62 @@ theme = "cleanwhite"
   
   [[menus.main]]
     name = "Відділення лікарні"
-    weight = 3
+    url = "#"  # Порожнє посилання для батьківського пункту  
     identifier = "departments"
-    url = "#"  # Порожнє посилання для батьківського пункту
+    weight = 30
 
   [[menus.main]]  # Група 1: Поліклініка
     name = "Поліклініка"
-    weight = 3.1
+    url = "#"  # Порожнє посилання для батьківського пункту
     parent = "departments"
     identifier = "polyclinic"
-    url = "#"  # Порожнє посилання для батьківського пункту
+    weight = 30.1
   [[menus.main]]    # Підпункти для Поліклініки
     name = "ДПВ №1"
     url = "/polyclinic/dpv-1/"
-    weight = 1
     parent = "polyclinic"
+    weight = 1
   [[menus.main]]
     name = "ДПВ №2"
     url = "/polyclinic/dpv-2/"
-    weight = 2
     parent = "polyclinic"
+    weight = 2
   [[menus.main]]
     name = "ДПВ №3"
     url = "/polyclinic/dpv-3/"
-    weight = 3
     parent = "polyclinic"
+    weight = 3
   [[menus.main]]
     name = "ДПCВ"
     url = "/polyclinic/dpsv/"
-    weight = 4
     parent = "polyclinic"
+    weight = 4
   
   [[menus.main]]
     name = "Стаціонар"    # Група 2: Стаціонар
-    weight = 3.2
+    url = "#"  # Порожнє посилання для батьківського пункту
     parent = "departments"
     identifier = "stationary"
-    url = "#"  # Порожнє посилання для батьківського пункту
+    weight = 30.2
   [[menus.main]]  # Підпункти для Стаціонару
     name = "ВАІТ"
     url = "/stationary/vait/"
-    weight = 1
     parent = "stationary"
+    weight = 1
   
   [[menus.main]]  # Група 3: Діагностика
     name = "Діагностика"
-    weight = 3.3
+    url = "#"  # Порожнє посилання для батьківського пункту
     parent = "departments"
     identifier = "diagnostics"
-    url = "#"  # Порожнє посилання для батьківського пункту
+    weight = 30.3
   [[menus.main]]  # Підпункти для Діагностики
     name = "Лабораторія"
     url = "/diagnostics/laboratory/"
-    weight = 1
     parent = "diagnostics"
+    weight = 1
 
   [[menus.main]]
     name = "Новини"
     url = "/posts/"
-    weight = 4
+    weight = 40

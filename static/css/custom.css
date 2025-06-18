@@ -38,3 +38,27 @@
         right: auto;
     }
 }
+
+/* static/css/custom.css */
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Змінити шрифт */
+    color: #333; /* Змінити колір тексту */
+}
+
+h1, h2, h3 {
+    color: #0056b3; /* Змінити колір заголовків */
+    margin-bottom: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Приклад зміни фіксованої навігаційної панелі */
+.fixed-top.navbar {
+    background-color: #fff; /* Білий фон */
+    border-bottom: 1px solid #eee; /* Тонка нижня межа */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Додати тінь */
+}
