@@ -1,6 +1,7 @@
 /* Підтримка трирівневого меню */
 .dropdown-submenu {
     position: relative;
+    border: 2px solid red;
 }
 
 .dropdown-submenu .dropdown-menu {
